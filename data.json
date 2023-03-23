@@ -1,0 +1,71 @@
+{
+    "intents": [{
+            "tag": "greeting",
+            "patterns": ["Hi there", "How are you", "Is anyone there?", "Hey", "Hola", "Hello", "Good day"],
+            "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+            "context": [""]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+            "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+            "context": [""]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+            "responses": ["Happy to help!", "Any time!", "My pleasure"],
+            "context": [""]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+            "context": [""]
+        },
+
+        {
+            "tag": "SRM",
+            "patterns": ["what is SRM?", "Tell me something about SRM", "Where is SRM located", " Is SRM an engneering college"],
+            "responses": ["SRM Institute of Science and Technology (formerly known as SRM University) is a private deemed-to-be-university located in Chennai, Tamil Nadu, India. It was founded in 1985 as SRM Engineering College and was later granted deemed university status in 2002."],
+            "context": [""]
+        },
+        {
+            "tag": "campuses",
+            "patterns": ["How many campuses are there in srm?", "Tell about the camous in SRM", "campuses of SRM"],
+            "responses": ["The university has four campuses, with the main campus located in Kattankulathur, Chennai."],
+            "context": [""]
+        },
+        {
+            "tag": "undergraduate",
+            "patterns": ["undergraduate courses offered by SRM", "what courses SRM offer"],
+            "responses": ["SRMIST offers undergraduate, postgraduate, and doctoral programs in various fields such as Engineering, Medicine, Science, Management, Law, and Humanities"],
+            "context": [""]
+        },
+        {
+            "tag": "collaboration",
+            "patterns": ["collaboration of SRM", "what university SRM have collaborated with?", "tell me about the collaboration of SRM"],
+            "responses": ["The university has collaborations with over 100 international universities, including the Massachusetts Institute of Technology (MIT), USA, and the University of California, Berkeley, USA, for academic and research purposes."],
+            "context": [""]
+        },
+        {
+            "tag": "research",
+            "patterns": ["how is research in SRM", "research in SRM", "rsearch papers of srm"],
+            "responses": ["SRMIST is known for its emphasis on research and innovation. The university has research centers and labs in various fields, such as Nanotechnology, Biotechnology, Robotics, and Artificial Intelligence. The university has filed over 900 patents and has published over 12,000 research papers."],
+            "context": [""]
+        },
+        {
+            "tag": "search_pharmacy_by_name",
+            "patterns": [],
+            "responses": ["Loading pharmacy details"],
+            "context": [""]
+        },
+        {
+            "tag": "extracurricular",
+            "patterns": ["extra curricular in SRM", "tell me about extracuricular in SRM", "is extracurricular good in SRM"],
+            "responses": ["SRMIST also offers various extracurricular activities for students, such as sports, cultural events, and clubs and societies. The university has hosted various national and international events, such as the 2019 World University Canoe Sprint Championship."],
+            "context": [""]
+        }
+
+    ]
+}
